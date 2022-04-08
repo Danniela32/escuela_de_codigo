@@ -1,10 +1,10 @@
 ## RETO 
 Vamos a identificar los siguientes tipos de datos
 
-NUMEROS ENTEROS : 
+NUMEROS ENTEROS : se identifican con la palabra int. Ejemplos: ..., -1, 0, 1, ...
 
-NUMEROS DECIMALES: 
+NUMEROS DECIMALES: se identifican con la palabra float. Ejemplo: 3.14
 
-CARACTER : 
+CARACTER : se utiliza char para identificarlos, ejemplos: "a", "@", "b"
 
-CADENA DE CARACTERES : 
+CADENA DE CARACTERES : utilizamos la palabra string para identificarlos, ejemplo: "hola"
