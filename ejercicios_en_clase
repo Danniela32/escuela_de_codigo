@@ -1,0 +1,55 @@
+//Suma (for)
+1. Inicio 
+2. i==0
+3. Para i<=6
+        Hacer 
+        Mostar ("Ingresa un número")int
+        Asignar num
+        sum = sum + num
+       Mostrar ("La suma de los números dados es", sum)
+       i= i +1
+ Fín Para
+4. Fín 
+*PSeInt:*
+Algoritmo suma
+	
+	Para i<- 0 Hasta 6 Con Paso 1 Hacer
+		Escribir "Ingresa un número"
+		Leer num
+		sum<- sum + num
+		Escribir "La autosuma hasta ahorita es  ", sum
+		
+	Fin Para
+	prom<- sum/6
+	Escribir "El promedio de los números dados es  ", prom 
+	
+FinAlgoritmo
+
+
+//Tabla de multiplicar
+1. Inicio 
+Mostar ("Ingresa el número de la tabla de multiplicar que quieras conocer")int
+asino
+2. i==0 
+3. Para i<= 10
+    Hacer
+     
+     Asignar num
+    tabla <- i * num 
+    Mostar "La tabla de multiplicar que elegiste es la siguiente:  ",tabla
+   Fín Para
+4. Fín 
+*PSeInt:*
+Algoritmo tabla
+	Escribir "¿Que tabla de multiplicar quieres conocer? Ingresa un número"
+	Leer num
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+		
+		tabl<- i * num
+		
+		Escribir num, " * " , i, " = ", tabl
+	Fin Para
+	
+FinAlgoritmo
+
+     
