@@ -51,5 +51,39 @@ Algoritmo tabla
 	Fin Para
 	
 FinAlgoritmo
+26/04/2022
+//Programa: pedir 10 números
+1. Inicio
+2. i==0
+3. Para i<=10
+ Hacer 
+  Mostrar ("Ingresa un número")int
+  Asignar número
+  Asignar número positivo
+  *PSeInt:*
+  Algoritmo pedir10nums
+	Para i<-0 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingresa un número"
+		Leer num 
+		Si num <  0 Entonces
+			res <- res + num
+			
+		SiNo
+			res2 <- res2 + num
+			cont <- cont + 1 
+			res3 <- res2 / cont
+			
+		Fin Si
+		
+	Fin Para
+	Escribir "La suma de los negativos es  ",res
+	Escribir "El promedio de los positivos es  ",res3
+	
+FinAlgoritmo
+
+  
+  
+     
+
 
      
