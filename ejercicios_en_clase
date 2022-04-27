@@ -80,6 +80,32 @@ FinAlgoritmo
 	Escribir "El promedio de los positivos es  ",res3
 	
 FinAlgoritmo
+27/04/2022
+//Programa que pida 10 calificaciones y diga cuales son menores a 7 y cuantas mayores a 7
+1. Inicio
+2. 
+
+
+
+//PROGRAMA QUE PIDE EL NUM DE PERSONAS PARA DAR EL PRIMEDIO DE LA ALTURA
+*PsInt: Algoritmo promaltura
+	promedio <- 0
+	numer <- 0
+	altura <- 0
+	i <- 0
+	suma <- 0
+	Escribir "Ingresa el número de personas de las cuales quieras saber la altura"
+	Leer numpar
+	Mientras i < numpar Hacer
+		i<- i + 1 
+		Escribir "Ingresa la altura  ", i 
+		Leer altura
+		suma <- suma + altura
+		promedio<- suma / numpar
+	Fin Mientras
+	Escribir "El promedio de altura de las ", numpar, "  personas que pediste es  ", promedio
+	
+FinAlgoritmo
 
   
   
