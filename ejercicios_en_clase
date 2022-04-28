@@ -107,7 +107,60 @@ FinAlgoritmo
 	
 FinAlgoritmo
 
-  
+  28/04/2022
+  //Programa que diga cuantas cifras tiene el número ingresado 
+  *PSeInt:*
+  Algoritmo sin_titulo
+	num <- 0
+	Repetir
+		Escribir "Ingresa un número"
+		Leer num
+		Si num < 1000 y num > 0 Entonces
+			Si num > 100 Entonces
+				Escribir "Tu número es de tres cifras"
+			SiNo
+				Si num > 10 Entonces
+					Escribir "Tu número es de dos cifras"
+				SiNo
+					Escribir "Tu número es de una cifra"
+				Fin Si
+			Fin Si
+		SiNo
+			Escribir "Dato invalido, solo acepto números que se encuentren entre 0 y 999"
+		Fin Si
+	Hasta Que num=0
+		
+FinAlgoritmo
+***************
+Algoritmo adivinanumero
+	numsec <- azar(100)+1
+	nume <- 0
+	i <- 10
+	Escribir numsec
+	
+	Escribir "Adivina el número"
+	Leer nume
+	Mientras nume <> numsec y i > 0 Hacer
+		i <- i - 1
+		Si nume > numsec Entonces
+			Escribir "El número es mayor"
+		SiNo
+			Escribir "El número es menor"
+		Fin Si
+		Escribir "Te quedan  ", i, "  intentos"
+		Escribir "Ingresa otro número del 1 al 99"
+		Leer nume
+	Fin Mientras
+	Si nume= numsec Entonces
+		Escribir "Felicidades le atinaste en ", i ,"  intentos"
+		
+	SiNo
+		Escribir "Se terminaron tus oportunidades el número era ", numsec 
+	Fin Si
+	
+	
+	
+FinAlgoritmo
   
      
 
